@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Never Stop Learning',
-  tagline: 'TechNSL',
+  tagline: '',
   favicon: 'img/favicon.ico',
   url: 'https://technsl.com', // Your website URL
   baseUrl: '/',
