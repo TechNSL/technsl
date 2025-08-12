@@ -1,6 +1,6 @@
 # Workflow for building and deploying to GitHub Pages
 name: Deploy to GitHub Pages
-
+run-name: ${{ github.workflow }} is run by ${{ github.actor }}
 on:
   push:
     branches: ["main"]
