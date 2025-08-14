@@ -2,16 +2,40 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+Install [Node.js](https://nodejs.org/en/download/) and create a new Docusaurus site:
+
+JavaScript
+```bash
+npx create-docusaurus@latest technsl classic --javascript
+```
+
+TypeScript
+```bash
+npx create-docusaurus@latest technsl classic --typescript
+```
+Start the site:
+
+```bash
+cd technsl
+npx docusaurus start
+
+-- or
+npm start
+```
+
+Open [`http://localhost:3000`](http://localhost:3000) and follow the tutorial.
+
+
 ## Installation
 
 ```bash
-yarn
+npm install
 ```
 
 ## Local Development
 
 ```bash
-yarn start
+npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -19,7 +43,7 @@ This command starts a local development server and opens up a browser window. Mo
 ## Build
 
 ```bash
-yarn build
+npm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

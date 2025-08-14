@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/technsl/technsl/tree/main/docs/',
+            'https://github.com/technsl/technsl/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/technsl/technsl/tree/main/blog/',
+            'https://github.com/technsl/technsl/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -101,6 +101,36 @@ const config = {
             sidebarId: 'dotnetSidebar',
             position: 'left',
             label: '.NET',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'pythonSidebar',
+            position: 'left',
+            label: 'Python',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'devopsSidebar',
+            position: 'left',
+            label: 'DevOps',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sreSidebar',
+            position: 'left',
+            label: 'SRE',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'securitySidebar',
+            position: 'left',
+            label: 'Security',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'dataSidebar',
+            position: 'left',
+            label: 'Data',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {

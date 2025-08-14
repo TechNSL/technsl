@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-sidebar_label: AWS Intro
-title: AWS Intro
+sidebar_label: AWS Introduction
+title: AWS Introduction
 ---
 
-# AWS
+# AWS Introduction
 
 Hello, Im from AWS
