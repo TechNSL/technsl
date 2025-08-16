@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: DevOps Introduction
+sidebar_label: DevOps
 title: DevOps Introduction
 ---
 

@@ -6,4 +6,4 @@ title: Introduction
 
 # Introduction
 
-Hello, Im from DevOps
+Hello, Im from PowerShell

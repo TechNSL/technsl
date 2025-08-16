@@ -86,6 +86,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'favsSidebar',
+            position: 'left',
+            label: 'Favs',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'aiSidebar',
             position: 'left',
             label: 'AI',
@@ -95,6 +101,12 @@ const config = {
             sidebarId: 'awsSidebar',
             position: 'left',
             label: 'AWS',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'dataSidebar',
+            position: 'left',
+            label: 'Data',
           },
           {
             type: 'docSidebar',
@@ -125,12 +137,6 @@ const config = {
             sidebarId: 'securitySidebar',
             position: 'left',
             label: 'Security',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'dataSidebar',
-            position: 'left',
-            label: 'Data',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
