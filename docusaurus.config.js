@@ -86,12 +86,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'favsSidebar',
-            position: 'left',
-            label: 'Favs',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'aiSidebar',
             position: 'left',
             label: 'AI',
@@ -101,6 +95,12 @@ const config = {
             sidebarId: 'awsSidebar',
             position: 'left',
             label: 'AWS',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'azureSidebar',
+            position: 'left',
+            label: 'Azure',
           },
           {
             type: 'docSidebar',
@@ -144,6 +144,11 @@ const config = {
             position: 'left',
             label: 'References',
             items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'refsSidebar',
+                label: 'Bookmarks',
+              },
               {
                 label: 'AWS Docs',
                 href: 'https://docs.aws.amazon.com/',
