@@ -161,8 +161,9 @@ const config = {
           },
           {
             href: 'https://github.com/TechNSL',
-            label: 'GitHub',
             position: 'right',
+            className: 'navbar-github-link',
+            'aria-label': 'GitHub',
           },
         ],
       },
