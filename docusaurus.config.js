@@ -75,7 +75,7 @@ const config = {
         logo: {
           alt: 'Tech NSL',
           src: 'img/nsl-logo.png',
-          srcDark: 'img/logo.png',
+          srcDark: 'img/nsl-logo.png',
         },
         items: [
           {
