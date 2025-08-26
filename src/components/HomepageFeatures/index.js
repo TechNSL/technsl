@@ -2,41 +2,48 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'AI',
+    title: 'Focus on Trending',
     image: '/img/nsl-ai.jpg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Empower your engineering journey with AI-powered tools. 
+        Discover how artificial intelligence can unlock new possibilities for developers and teams.
       </>
     ),
+    buttonLink: '/docs/ai/intro',
+    buttonText: 'Get Started with AI',
   },
   {
     title: 'Focus on What Matters',
     image: '/img/nsl-aws.jpg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Build, deploy, and scale cloud solutions with AWS. 
+        Explore best practices, automation, and tools for modern cloud engineering.
       </>
     ),
+    buttonLink: '/docs/aws/intro',
+    buttonText: 'Get Started with AWS'
   },
   {
-    title: 'Powered by React',
+    title: 'Focus on Security',
     image: '/img/nsl-ai.jpg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Strengthen your defenses with practical cybersecurity strategies. 
+        Learn how to protect applications, data, and infrastructure from evolving threats.
       </>
     ),
+    buttonLink: '/docs/security/intro',
+    buttonText: 'Get Started with Security'
   },
 ];
 
-function Feature({image, title, description}) {
+function Feature({image, title, description, buttonLink, buttonText}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -45,6 +52,11 @@ function Feature({image, title, description}) {
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+      </div>
+      <div className="text--center">
+      <Link className={clsx('button button--primary button--lg', styles.button)} to={useBaseUrl(buttonLink)}>
+        {buttonText}
+      </Link>
       </div>
     </div>
   );
