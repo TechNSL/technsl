@@ -53,10 +53,10 @@ function Feature({image, title, description, buttonLink, buttonText}) {
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
-      <div className="text--center">
-      <Link className={clsx('button button--primary button--lg', styles.button)} to={useBaseUrl(buttonLink)}>
-        {buttonText}
-      </Link>
+      <div className="text--center margin-bottom--lg">
+        <Link className={clsx('button button--primary button--lg', styles.button)} to={useBaseUrl(buttonLink)}>
+          {buttonText}
+        </Link>
       </div>
     </div>
   );
