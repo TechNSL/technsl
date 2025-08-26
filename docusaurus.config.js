@@ -154,8 +154,8 @@ const config = {
                 href: 'https://docs.aws.amazon.com/',
               },
               {
-                label: 'Microsoft Docs',
-                href: 'https://learn.microsoft.com/en-us/dotnet/',
+                label: 'Microsoft Learn',
+                href: 'https://learn.microsoft.com/en-us/',
               },
             ],
           },
