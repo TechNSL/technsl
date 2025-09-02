@@ -14,5 +14,15 @@ ipconfig /renew
 ```ps showLineNumbers
 ipconfig /flushdns
 ```
-That's it
 
+
+### Summary
+
+- Right-click the Start button (the Windows logo in the lower-left).
+- Open Command Prompt  in Admin mode
+- Type ```ipconfig /flushdns``` and press Enter.
+- Type ```ipconfig /registerdns``` and press Enter.
+- Type ```ipconfig /release``` and press Enter.
+- Type ```ipconfig /renew``` and press Enter.
+- Type ```netsh winsock reset``` and press Enter.
+- Restart the computer.
