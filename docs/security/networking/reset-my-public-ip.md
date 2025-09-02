@@ -18,7 +18,6 @@ ipconfig /flushdns
 
 ### Summary
 
-- Right-click the Start button (the Windows logo in the lower-left).
 - Open Command Prompt  in Admin mode
 - Type ```ipconfig /flushdns``` and press Enter.
 - Type ```ipconfig /registerdns``` and press Enter.
