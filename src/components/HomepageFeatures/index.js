@@ -31,7 +31,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on Security',
-    image: '/img/nsl-ai.jpg',
+    image: '/img/nsl-main.png',
     description: (
       <>
         Strengthen your defenses with practical cybersecurity strategies. 
