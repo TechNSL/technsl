@@ -80,9 +80,21 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'fundamentalsSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'dotnetSidebar',
+            position: 'left',
+            label: '.NET',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'pythonSidebar',
+            position: 'left',
+            label: 'Python',
           },
           {
             type: 'docSidebar',
@@ -110,15 +122,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'dotnetSidebar',
+            sidebarId: 'cyberSidebar',
             position: 'left',
-            label: '.NET',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'pythonSidebar',
-            position: 'left',
-            label: 'Python',
+            label: 'Cyber',
           },
           {
             type: 'docSidebar',
@@ -131,12 +137,6 @@ const config = {
             sidebarId: 'sreSidebar',
             position: 'left',
             label: 'SRE',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'securitySidebar',
-            position: 'left',
-            label: 'Security',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
