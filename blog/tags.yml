@@ -1,0 +1,39 @@
+# Each top-level key (e.g., 'ai') is a unique tag ID used in blog posts.
+# 'label' is the human-readable name shown for the tag.
+# 'permalink' is the URL path for the tag's page.
+# 'description' is the tooltip text shown when hovering
+
+ai:
+  label: AI
+  permalink: /ai
+  description: AI tag description
+
+aws:
+  label: AWS
+  permalink: /aws
+  description: AWS tag description
+
+dotnet:
+  label: .NET
+  permalink: /dotnet
+  description: .NET tag description
+
+git:
+  label: Git
+  permalink: /git
+  description: Git tag description
+
+nodejs:
+  label: Node.js
+  permalink: /nodejs
+  description: Node.js tag description
+
+npm:
+  label: npm
+  permalink: /npm
+  description: npm tag description
+
+powershell:
+  label: PowerShell
+  permalink: /powershell
+  description: PowerShell tag description
