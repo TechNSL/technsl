@@ -4,6 +4,6 @@ sidebar_label: C#
 title: C#
 ---
 
-# What C# ?
+# What is C# ?
 
 Hello, Im from C#

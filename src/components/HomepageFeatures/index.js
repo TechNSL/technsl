@@ -14,7 +14,7 @@ const FeatureList = [
         Discover how artificial intelligence can unlock new possibilities for developers and teams.
       </>
     ),
-    buttonLink: '/docs/ai/intro',
+    buttonLink: '/ai',
     buttonText: 'Learn AI',
   },
   {
@@ -26,7 +26,7 @@ const FeatureList = [
         Explore best practices, automation, and tools for modern cloud engineering.
       </>
     ),
-    buttonLink: '/docs/aws/intro',
+    buttonLink: '/aws',
     buttonText: 'Learn AWS'
   },
   {
@@ -38,7 +38,7 @@ const FeatureList = [
         Learn how to create systems that balance performance, reliability, and maintainability.
       </>
     ),
-    buttonLink: '/docs/system-design/intro',
+    buttonLink: '/system-design',
     buttonText: 'Learn System Design',
   },
 ];

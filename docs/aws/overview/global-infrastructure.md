@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
-sidebar_label: AWS Global Infrastructure
-title: AWS Global Infrastructure
+sidebar_position: 1
+sidebar_label: Global Infrastructure
+title: Global Infrastructure
 ---
 
 # AWS Global Infrastructure
@@ -23,7 +23,7 @@ Each AZ is one or more discrete datacenters with redundent power
 Az names are like ap-southeast-2a, ap-southeast-2b, ap-southeast-2c for Syndey region
 Its a group of logical data centers
 
-# How to choose AWS Region ?
+## How to choose AWS Region ?
 
 - Complaince with data governance and legal
 - Proximity/Latency 
@@ -31,7 +31,7 @@ Its a group of logical data centers
 - Pricing - It varies region to region
 
 
-# What is the SCOPE of AWS Services ?
+## What is the SCOPE of AWS Services ?
 
 AWS services are either Global, Regional, or Availability Zone specific and cannot be accessed outside.
 

@@ -18,6 +18,7 @@ const config = {
 
   url: 'https://technsl.com', // Your website URL
   baseUrl: '/',
+  trailingSlash: false,
 
   organizationName: 'TechNSL', // GitHub org/user name.
   projectName: 'technsl', // GitHub repo name.
@@ -37,6 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
         },
         blog: {
@@ -176,15 +178,15 @@ const config = {
             items: [
               {
                 label: 'System Design',
-                to: '/docs/system-design/intro',
+                to: '/system-design',
               },
               {
                 label: '.NET',
-                to: '/docs/dotnet/intro',
+                to: '/dotnet',
               },
               {
                 label: 'AWS',
-                to: '/docs/aws/intro',
+                to: '/aws',
               },
             ],
           },
