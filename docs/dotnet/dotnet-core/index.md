@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-sidebar_label: .NET Core
-title: .NET Core
+sidebar_label: .NET
+title: .NET
 ---
 
-# What is .NET Core ?
+# What is .NET  ?
 
-Hello, Im from .NET Core
+Hello, Im from .NET
