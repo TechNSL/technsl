@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 sidebar_label: VS Code Extensions
 title: VS Code Extensions
 ---

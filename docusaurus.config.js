@@ -139,6 +139,10 @@ const config = {
                 label: 'Bookmarks',
               },
               {
+                label: 'Coursera',
+                href: 'https://www.coursera.org/',
+              },
+              {
                 label: 'AWS Docs',
                 href: 'https://docs.aws.amazon.com/',
               },

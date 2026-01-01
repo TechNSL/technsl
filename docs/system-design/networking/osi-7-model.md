@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # OSI 7-Layer Model
 
 The OSI (Open Systems Interconnection) model is a framework that describes the functions and interactions of computer systems in a network.
