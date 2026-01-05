@@ -139,6 +139,11 @@ const config = {
                 label: 'Bookmarks',
               },
               {
+                type: 'doc',
+                docId: 'references/apple-device-types',
+                label: 'Apple Device Types',
+              },
+              {
                 label: 'Coursera',
                 href: 'https://www.coursera.org/',
               },
