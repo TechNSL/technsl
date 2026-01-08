@@ -165,20 +165,27 @@ const config = {
           },
         ],
       },
-      /*announcementBar: {
+      
+      /*
+      announcementBar: {
         id: 'announcement-bar',
         content:
           '🚀 Never Stop Learning. <a target="_blank" rel="noopener noreferrer" href="https://technsl.com/">Get Started Now</a>',
         backgroundColor: '#091E42',
         textColor: '#fafbfc',
         isCloseable: true,
-      },*/
+      },
+      */
+
+      /*
       algolia: {
         appId: 'RBHKFI9TH6',
         apiKey: '418bf2220d2872becdee09fca9ec1e40',
         indexName: 'TechNSL-Search',
         contextualSearch: true,
       },
+      */
+
       footer: {
         style: 'dark',
         links: [
@@ -237,6 +244,17 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        hashed: true,
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+      }
+    ]
+  ],
 };
 
-export default config;
+module.exports = config;
