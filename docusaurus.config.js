@@ -111,9 +111,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'databaseSidebar',
+            sidebarId: 'dataSidebar',
             position: 'left',
-            label: 'Database',
+            label: 'Data',
           },
           {
             type: 'docSidebar',
