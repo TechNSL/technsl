@@ -81,6 +81,39 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'aiSidebar',
+            position: 'left',
+            label: 'AI',
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'JavaScript',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'jsSidebar',
+                label: 'JavaScript',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'reactSidebar',
+                label: 'React',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'tsSidebar',
+                label: 'TypeScript',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'nodejsSidebar',
+                label: 'Node JS',
+              },
+            ],
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'dotnetSidebar',
             position: 'left',
             label: '.NET',
@@ -90,12 +123,6 @@ const config = {
             sidebarId: 'pythonSidebar',
             position: 'left',
             label: 'Python',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'aiSidebar',
-            position: 'left',
-            label: 'AI',
           },
           {
             type: 'docSidebar',

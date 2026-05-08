@@ -7,7 +7,6 @@ tags: [nodejs, npm, powershell]
 
 # Resolving npm Execution Policy Error in PowerShell
 
-<!-- truncate -->
 npm Execution Policy Error in PowerShell 
 
 
